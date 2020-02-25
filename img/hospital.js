@@ -14,12 +14,12 @@ export default class Hospital{
         this.doctores = new Array()
 
     }
-    registrarDoctores(doctor){
+    registrarDoctor(doctor){
         this.doctores.push(doctor)
     }
     listarDoctores(){
         this.doctores.forEach((doctor, i) =>{
-            console.log(`${this.doctor.getPerfil()}`)
+            console.log(`${doctor.getPerfil()}`)
         })
 
     }
