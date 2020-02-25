@@ -23,10 +23,13 @@ export default class Hospital{
         })
 
     }
-    registrarCita(){
-
+    registrarCita(cita){
+        this.citas.push(cita)
     }
     listarCitas(){
+        this.citas.forEach((cita,i) =>{
+            console.log(cita.getCita())
+        })
 
     }
 
